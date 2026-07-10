@@ -1,0 +1,79 @@
+/* Reinicio de estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo de la página */
+body{
+    background-color: #f5f7fa;
+}
+
+/* Barra de navegación */
+header{
+    width: 100%;
+    background: linear-gradient(90deg, #2E7D32, #1976D2);
+    box-shadow: 0 4px 10px rgba(141, 37, 37, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Contenedor del menú */
+.navbar{
+    max-width: 1300px;
+    margin: auto;
+    padding: 15px 20px;
+}
+
+/* Lista del menú */
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Enlaces */
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all .3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.menu li a:hover{
+    background-color: white;
+    color: #0b6e4f;
+}
+
+/* Enlace activo */
+.menu li a:active{
+    background-color: #ffd166;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+
+    .menu{
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px 0;
+    }
+
+    .menu li a{
+        display: block;
+        width: 220px;
+        text-align: center;
+    }
+
+}
