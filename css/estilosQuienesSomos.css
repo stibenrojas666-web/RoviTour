@@ -1,0 +1,85 @@
+/* Reinicio */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo */
+body{
+    background-color: #F5F7FA;
+}
+
+/* Sección Nosotros */
+.nosotros{
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Título */
+.nosotros h1{
+    text-align: center;
+    color: #2E7D32;
+    margin-bottom: 20px;
+}
+
+/* Descripción */
+.descripcion{
+    text-align: center;
+    color: #333333;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* Contenedor de tarjetas */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Tarjetas */
+.tarjeta{
+    width: 320px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+}
+
+/* Títulos */
+.tarjeta h2{
+    color: #1976D2;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Párrafos */
+.tarjeta p{
+    color: #212121;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Lista */
+.tarjeta ul{
+    list-style: none;
+}
+
+.tarjeta ul li{
+    margin: 10px 0;
+    color: #212121;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
