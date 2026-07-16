@@ -1,4 +1,4 @@
-/* Fondo */
+
 body{
     margin:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,22 +6,22 @@ body{
     color:#212121;
 }
 
-/* Contenedor principal */
+
 .quienes-somos{
     max-width:1200px;
     margin:50px auto;
     padding:20px;
 }
 
-/* Título */
+
 .quienes-somos h1{
     text-align:center;
-    color:#2E7D32;
+    color:#1976D2;
     font-size:42px;
     margin-bottom:25px;
 }
 
-/* Descripción */
+
 .descripcion{
     text-align:center;
     font-size:20px;
@@ -30,7 +30,7 @@ body{
     margin:0 auto 50px auto;
 }
 
-/* Contenedor de tarjetas */
+
 .contenedor{
     display:flex;
     justify-content:center;
@@ -38,10 +38,10 @@ body{
     flex-wrap:wrap;
 }
 
-/* Tarjetas */
+
 .tarjeta{
     width:320px;
-    background:#fff;
+    background:#ffffff;
     padding:30px;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,.15);
@@ -68,4 +68,54 @@ body{
 
 .tarjeta ul{
     padding-left:20px;
+}
+
+
+
+
+.banner{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+}
+
+.banner img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.frase{
+    text-align:center;
+    font-size:18px;
+    color:#0077b6;
+    font-style:italic;
+    margin-bottom:20px;
+}
+
+.equipo{
+    margin-top:40px;
+    background:#ffffff;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 3px 8px rgba(0,0,0,.15);
+}
+
+.equipo h2{
+    color:#0077b6;
+    margin-bottom:15px;
+}
+
+.equipo p{
+    line-height:1.7;
+}
+
+.quienes-somos h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #1976D2;
+    font-size: 55px;
+    text-align: center;
 }
